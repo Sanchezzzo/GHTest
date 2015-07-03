@@ -8,10 +8,13 @@ import android.view.MenuItem;
 
 public class MainActivity extends ActionBarActivity {
 
+    private int xCount;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        xCount = 1;
     }
 
     @Override
